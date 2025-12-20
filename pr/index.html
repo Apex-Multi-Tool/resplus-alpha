@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ResPlus – Investor Pitch</title>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.65;
+      max-width: 980px;
+      margin: 40px auto;
+      padding: 32px 20px;
+      background: #eaf4ff;
+      color: #0f172a;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 48px;
+      border-radius: 14px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      font-size: 2.3rem;
+      margin-bottom: 0.4em;
+    }
+
+    h2 {
+      margin-top: 2.6rem;
+      font-size: 1.6rem;
+    }
+
+    h3 {
+      margin-top: 1.4rem;
+      font-size: 1.2rem;
+    }
+
+    p {
+      margin: 0.9rem 0;
+    }
+
+    ul, ol {
+      margin-left: 1.4rem;
+      margin-top: 0.6rem;
+    }
+
+    hr {
+      margin: 3rem 0;
+      border: none;
+      border-top: 1px solid #e2e8f0;
+    }
+
+    .subtitle {
+      color: #475569;
+      margin-bottom: 2rem;
+    }
+
+    .lang-switch {
+      margin-bottom: 2.5rem;
+    }
+
+    button {
+      padding: 9px 16px;
+      margin-right: 10px;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+      background: white;
+      cursor: pointer;
+      font-size: 0.95rem;
+    }
+
+    button.active {
+      background: #2563eb;
+      color: white;
+      border-color: #2563eb;
+    }
+
+    .lang {
+      display: none;
+    }
+
+    .lang.active {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="lang-switch">
+      <button id="btn-sv" class="active" onclick="showLang('sv')">Svenska</button>
+      <button id="btn-en" onclick="showLang('en')">English</button>
+    </div>
+
+    <!-- ================= SWEDISH ================= -->
+
+    <div id="sv" class="lang active">
+
+      <h1>Investerarpitch – Allt-i-ett-app för kollektivtrafik i Sverige</h1>
+      <p class="subtitle">ResPlus byggs och ägs av ApexMultiTool Group</p>
+
+      <h2>1. Problemet</h2>
+      <p>Kollektivtrafiken i Sverige är uppdelad mellan många olika aktörer och plattformar. För att planera och betala en resa med tåg, buss, tunnelbana eller färja behöver användaren ofta besöka flera appar och webbplatser – regionala trafikbolag, nationella tågoperatörer och privata aktörer.</p>
+      <p>För <strong>dagliga pendlare</strong> leder detta till onödig komplexitet, flera biljetter eller abonnemang, otydliga priser och friktion i vardagen.</p>
+      <p>För <strong>turister och tillfälliga resenärer</strong> skapar det förvirring, osäkerhet och tidsförlust.</p>
+      <p>Kort sagt: att hitta och betala för kollektivtrafik i Sverige är mer komplicerat än det behöver vara. Vi har lösningen.</p>
+
+      <hr />
+
+      <h2>2. Lösningen</h2>
+      <p>En enda app där användaren kan <strong>söka, planera och betala för kollektivtrafik i hela Sverige</strong>.</p>
+      <p>Användaren kan välja mellan:</p>
+      <ul>
+        <li>Ett <strong>enkelt månadsabonnemang</strong> för obegränsat resande</li>
+        <li><strong>Betala per resa</strong> när det passar bättre</li>
+      </ul>
+      <p>Alla större trafikslag – <strong>tåg, buss, tunnelbana, spårvagn och färja</strong> – samlas i ett och samma gränssnitt.</p>
+
+      <hr />
+
+      <h2>3. Produktvision</h2>
+      <p>Vår vision är att bli det självklara lösningen för kollektivtrafik i Sverige.</p>
+      <p>Användaren ska inte behöva tänka på zoner, operatörer eller biljettregler – bara på <strong>vart de vill åka</strong>.</p>
+      <p>Appen hanterar komplexiteten i bakgrunden.</p>
+
+      <hr />
+
+      <h2>4. MVP (Minimum Viable Product)</h2>
+      <p>Syftet med MVP:n är att <strong>bevisa efterfrågan, användbarhet och investerarintresse</strong> – inte att integrera hela Sveriges kollektivtrafik dag ett.</p>
+
+      <h3>MVP:n innehåller:</h3>
+      <ul>
+        <li>Samlad resesökning för utvalda regioner i Sverige</li>
+        <li>Reseplanering över flera trafikslag</li>
+        <li>Översikt av operatörer och rutter i ett gränssnitt</li>
+        <li>Demonstration av månadsabonnemang</li>
+        <li>Betala-per-resa-flöde (begränsat eller simulerat vid behov)</li>
+      </ul>
+
+      <h3>MVP:n innehåller inte:</h3>
+      <ul>
+        <li>Full nationell biljettintegration</li>
+        <li>Komplex intäktsdelning med alla operatörer</li>
+        <li>Avancerad personalisering eller AI-funktioner</li>
+      </ul>
+
+      <p>MVP:n byggs som en <strong>trovärdig demo</strong> som tydligt visar hur produkten kan skalas.</p>
+
+      <hr />
+
+      <h2>5. Målgrupper</h2>
+
+      <h3>Primär målgrupp</h3>
+      <ul>
+        <li><strong>Dagliga pendlare</strong></li>
+        <li>Användare som värderar enkelhet, förutsägbarhet och tidsbesparing</li>
+        <li>Personer som vill ha ett abonnemang istället för flera biljetter</li>
+      </ul>
+
+      <h3>Sekundär målgrupp</h3>
+      <ul>
+        <li><strong>Turister och besökare</strong></li>
+        <li>Tillfälliga resenärer</li>
+        <li>Användare som snabbt vill hitta alla resealternativ utan att besöka många webbplatser</li>
+      </ul>
+
+      <hr />
+
+      <h2>6. Marknadsmöjlighet (Sverige)</h2>
+      <ul>
+        <li>Hög användning av kollektivtrafik</li>
+        <li>Stark digital mognad och abonnemangsvana</li>
+        <li>Många regionala trafikmyndigheter med begränsad samordning</li>
+      </ul>
+      <p>Detta skapar utrymme för en <strong>användarfokuserad plattform</strong> som förenklar tillgången utan att ersätta befintliga aktörer.</p>
+
+      <hr />
+
+      <h2>7. Affärsmodell</h2>
+      <ul>
+        <li>Månadsabonnemang för frekventa resenärer</li>
+        <li>Betala per biljett för tillfälliga användare</li>
+        <li>Framtida möjligheter:
+          <ul>
+            <li>B2B-erbjudanden</li>
+            <li>Samarbeten med regioner, städer eller arbetsgivare</li>
+            <li>Turistanpassade paket</li>
+          </ul>
+        </li>
+      </ul>
+
+      <hr />
+
+      <h2>8. Konkurrens &amp; Differentiering</h2>
+      <p>Befintliga lösningar fokuserar ofta på:</p>
+      <ul>
+        <li>Enskilda regioner</li>
+        <li>Enskilda operatörer</li>
+        <li>Reseplanering utan samlad betalning</li>
+      </ul>
+      <p>Vår differentiering:</p>
+      <ul>
+        <li>En app för alla operatörer</li>
+        <li>Abonnemang i centrum</li>
+        <li>Användarupplevelse före organisatoriska gränser</li>
+      </ul>
+
+      <hr />
+
+      <h2>9. Team</h2>
+      <p>Vi är i dagsläget två grundare som bygger MVP:n.</p>
+      <p>Med investering är målet att växa till ett team av fyra, vilket möjliggör snabbare utveckling, starkare design och tidiga partnerskap.</p>
+
+      <hr />
+
+      <h2>10. Roadmap</h2>
+      <ol>
+        <li>Bygga och lansera MVP-demo</li>
+        <li>Validera intresse hos pendlare</li>
+        <li>Inleda dialog med operatörer och pilotregioner</li>
+        <li>Utöka täckning och biljettintegration</li>
+        <li>Förbereda större seed-runda</li>
+        <li>Påbörja ett live beta test</li>
+      </ol>
+
+      <hr />
+
+      <h2>11. Investeringsbehov</h2>
+      <p>Vi söker tidig finansiering för att bygga MVP:n, validera abonnemangsmodellen och förbereda nästa finansieringsrunda.</p>
+      <p><strong>Denna runda fokuserar på bevis – inte skala.</strong></p>
+
+      <hr />
+
+      <h2>Avslutning</h2>
+      <p>Kollektivtrafik borde kännas lika enkel som att streama musik: en app, ett abonnemang, full tillgång. Med din hjälp kommer ResPlus bli det självklara alternativet för kollektivtrafik i Sverige.</p>
+      <p>Mvh<br/>ApexMultiTool Group<br/>https://github.com/users/Apex-Multi-Tool/projects/</p>
+
+    </div>
+
+    <!-- ================= ENGLISH ================= -->
+
+    <div id="en" class="lang">
+      <h1>Investor Pitch – All-in-One Public Transport App for Sweden</h1>
+      <p class="subtitle">ResPlus MVP is beeing created By ApexMultiTool Group</p>
+
+      <h2>1. Problem</h2>
+      <p>Public transport in Sweden is fragmented across many operators and platforms. A user traveling by train, bus, metro, or ferry often needs to visit multiple websites or apps (regional transport authorities, national rail, private operators) just to plan and pay for a single journey.</p>
+      <p>For <strong>daily commuters</strong>, this means complexity, multiple subscriptions, unclear pricing, and friction in everyday travel.</p>
+      <p>For <strong>tourists and occasional travelers</strong>, this means confusion, lost time, and uncertainty about which ticket or operator to choose.</p>
+      <p>In short: finding and paying for public transport in Sweden is harder than it should be.</p>
+
+      <hr />
+
+      <h2>2. Solution</h2>
+      <p>A single app that lets users <strong>search, plan, and pay for public transport across Sweden in one place</strong>.</p>
+      <p>Users can either:</p>
+      <ul>
+        <li>Travel freely with <strong>one simple monthly subscription</strong></li>
+        <li>Pay <strong>per ticket</strong> when that fits them better</li>
+      </ul>
+      <p>All major transport modes—<strong>trains, buses, metro, trams, and ferries</strong>—accessible through one unified experience.</p>
+
+      <hr />
+
+      <h2>3. Product Vision</h2>
+      <p>Our vision is to become the default interface for public transport in Sweden. This is ofcource something that will take time and money. But we really think that we can dominate the market and get the majority of all Traveling customers in Sweden.</p>
+      <p>Instead of thinking about operators, zones, or ticket rules, users simply think about <strong>where they want to go</strong>. This will simplify Traveling in Sweden 10x, Fast,Simpel and at a good price.</p>
+      <p>The app handles the complexity in the background.</p>
+
+      <hr />
+
+      <h2>4. MVP (Minimum Viable Product / DEMO)</h2>
+      <p>The purpose of the MVP/Demo is to <strong>prove demand, usability, and investor readiness</strong>—not to fully integrate every transport operator on day one, But to show that it actually works!</p>
+
+      <h3>MVP Features:</h3>
+      <ul>
+        <li>Unified travel search across selected Swedish regions. Demo will have 5 Regions (Län)</li>
+        <li>Journey planning across multiple transport modes</li>
+        <li>Centralized view of operators and routes</li>
+        <li>Demo subscription model (monthly pass concept)</li>
+        <li>Pay-per-ticket flow (limited or simulated where needed)</li>
+        <li>GPS &amp; Maps integration to show our beautiful Maps view</li>
+        <li>On demand vehicle tracking on all operators that support it</li>
+      </ul>
+
+      <h3>What the MVP Will Not Include:</h3>
+      <ul>
+        <li>Nationwide full ticketing integration</li>
+        <li>Complex revenue sharing with all operators</li>
+        <li>Advanced personalization or AI features</li>
+      </ul>
+
+      <p>The MVP will be designed as a <strong>realistic demo</strong> that clearly shows how the full product will work at scale.</p>
+
+      <hr />
+
+      <h2>5. Primary &amp; Secondary Users</h2>
+
+      <h3>Primary Users</h3>
+      <ul>
+        <li><strong>Daily commuters</strong></li>
+        <li>People who value simplicity, predictability, and time savings</li>
+        <li>Users who want one subscription instead of multiple tickets or passes</li>
+      </ul>
+
+      <h3>Secondary Users</h3>
+      <ul>
+        <li><strong>Tourists and visitors</strong></li>
+        <li>Occasional travelers</li>
+        <li>Users who want to quickly find and compare all transport options without visiting multiple websites</li>
+      </ul>
+
+      <hr />
+
+      <h2>6. Market Opportunity (Sweden)</h2>
+      <ul>
+        <li>Sweden has high public transport usage</li>
+        <li>Strong digital adoption and subscription culture</li>
+        <li>Multiple regional transport authorities with limited cross-region coordination</li>
+      </ul>
+
+      <p>This creates a strong opportunity for a <strong>user-centric aggregation platform</strong> that simplifies access without replacing existing operators.</p>
+
+      <hr />
+
+      <h2>7. Business Model</h2>
+      <ul>
+        <li>Monthly subscription for frequent travelers</li>
+        <li>Pay-per-ticket option for occasional users</li>
+        <li>Future potential:
+          <ul>
+            <li>B2B offerings</li>
+            <li>Partnerships with regions, cities, or employers</li>
+            <li>Tourist-focused bundles</li>
+          </ul>
+        </li>
+      </ul>
+
+      <hr />
+
+      <h2>8. Competition &amp; Differentiation</h2>
+      <p>Existing solutions focus on:</p>
+      <ul>
+        <li>Single regions</li>
+        <li>Single operators</li>
+        <li>Journey planning <em>without</em> unified payment</li>
+      </ul>
+      <p>Our differentiation:</p>
+      <ul>
+        <li>One app for all operators</li>
+        <li>Subscription-first mindset</li>
+        <li>Focus on user simplicity rather than operator structure</li>
+        <li>Simpel payment</li>
+      </ul>
+
+      <hr />
+
+      <h2>9. Team</h2>
+      <p>We are currently a team of two founders building the MVP. &amp; We are working with the MultiTools group.</p>
+      <p>With investment, the goal is to expand to a team of four, enabling faster development, stronger design and UX, and earlier partnerships and pilot testing.</p>
+
+      <hr />
+
+      <h2>10. Roadmap</h2>
+      <ol>
+        <li>Build and launch MVP demo</li>
+        <li>Validate user interest with commuters</li>
+        <li>Secure operator discussions and pilot regions</li>
+        <li>Expand coverage and ticketing depth</li>
+        <li>Prepare for larger seed round</li>
+        <li>Start work on a BETA test</li>
+      </ol>
+
+      <hr />
+
+      <h2>11. Investment Ask</h2>
+      <p>We are seeking early investment to build and polish the MVP, validate the subscription concept, acquire servers &amp; domains, and prepare for partnerships and a larger funding round for beta testing.</p>
+      <p><strong>This round is focused on proof, not scale.</strong></p>
+
+      <hr />
+
+      <h2>Closing</h2>
+      <p>Public transport should feel as simple as streaming music: one app, one subscription, unlimited access. This is our plan and our MVP will show that it is not only possible but can be done in a butiful and interactive way.</p>
+      <p>We are building the first step toward that future in Sweden. Soon “ResPlus” will be a household name do not miss your chance to be a part of our journey. If you have any questions or ides for the project let us know.</p>
+      <p>Regards<br/>@ApexMultiTool Group<br/>https://github.com/users/Apex-Multi-Tool/projects/</p>
+      
+    </div>
+
+  </div>
+
+  <script>
+    function showLang(lang) {
+      document.querySelectorAll('.lang').forEach(el => el.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+
+      document.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
+      document.getElementById('btn-' + lang).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
