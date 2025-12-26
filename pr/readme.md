@@ -1,8 +1,9 @@
 ### All things ResPlus V0.0.3 MVP pitch for investors & Developers ###
 
 # Pitch
-Our pitch site for investors can be found at https://resplus-pitch.netlify.app/
-or check the html file under /pr/index.html in this repo. 
+Our pitch site for investors can be found at:
+[](https://resplus-pitch.netlify.app/)   &    [](https://resplus.hopto.org/ )
+Or check the html file under /pr/index.html in this repo. 
 
 
 ```
