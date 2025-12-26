@@ -2,7 +2,7 @@
 
 # Pitch
 Our pitch site for investors can be found at:
-[](https://resplus-pitch.netlify.app/)   &    [](https://resplus.hopto.org/ )
+https://resplus-pitch.netlify.app/  &  https://resplus.hopto.org/
 Or check the html file under /pr/index.html in this repo. 
 
 
